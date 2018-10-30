@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+	<title>JVMLocaleInfoJSF</title>
+</h:head>
+<body>
+	<h1>Locale info</h1>
+	<h:panelGrid columns="2">
+		<h:outputLabel value="Default Locale:" />
+		<h:outputText value="#{indexController.defaultLocale}" />
+		<h:outputLabel value="Country:" />
+		<h:outputText value="#{indexController.countryLocale}" />
+		<h:outputLabel value="Language:" />
+		<h:outputText value="#{indexController.languageLocale}" />
+		<h:outputLabel value="Name:" />
+		<h:outputText value="#{indexController.nameLocale}" />
+		<h:outputLabel value="Language Tag:" />
+		<h:outputText value="#{indexController.languageTagLocale}" />
+		<h:outputLabel value="Time-zone:" />
+		<h:outputText value="#{indexController.timeZone}" />
+		<h:outputLabel value="Offset:" />
+		<h:outputText value="#{indexController.offSet}" />
+	</h:panelGrid>
+</body>
+</html>
